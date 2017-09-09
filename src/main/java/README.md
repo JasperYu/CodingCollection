@@ -28,3 +28,11 @@ What we should mention is that it include main function and complete complementa
 * Backtracing
 
 ## Coding History
+
+## Another Plan
+I will push sentiment analysis project, music recommendation project, CTR prediction Project,
+Contest project and etc. in the future.
+
+# Motto
+Life depends on choice but not ability.
+Fighting for dream and love.
