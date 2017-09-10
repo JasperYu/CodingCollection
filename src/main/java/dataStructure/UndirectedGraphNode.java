@@ -8,9 +8,9 @@ import java.util.List;
 
 // 另外图的表示是邻接表  ArrayList[] graph = new ArrayList[numCourses];//根据pre建立图,用邻接表，而不是邻接矩阵
 public class UndirectedGraphNode {
-    int label;
-    List<UndirectedGraphNode> neighbors;
-    UndirectedGraphNode(int x) {
+    public int label;
+    public List<UndirectedGraphNode> neighbors;
+    public UndirectedGraphNode(int x) {
         label = x;
         neighbors = new ArrayList<UndirectedGraphNode>();
     }
