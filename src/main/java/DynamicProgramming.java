@@ -8,7 +8,7 @@ public class DynamicProgramming {
         //
         fshow();
     }
-
+    //triangle
 
     public static void fshow(){
         int n = 20;

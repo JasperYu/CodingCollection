@@ -11,7 +11,7 @@ we use this dir for completing leetcode
 What we should mention is that it include main function and complete complementation.
 
 
-## Codingfile Structure
+# Codingfile Structure
 * Tag
 * Description of this task
 
@@ -29,7 +29,23 @@ What we should mention is that it include main function and complete complementa
 
 ## Coding History
 
-## Another Plan
+## Basic DataStructure
+* array、arraylist、vector
+* string、stringbuffer、stringbuilder
+* linkedlist
+* binary tree
+* graph 
+* stack
+* queue
+* hashmap hashtable  hashset
+* union find**
+* trie tree**
+* scan line**
+* heap**
+* red-black tree**
+* balance tree**
+
+# Another Plan
 I will push sentiment analysis project, music recommendation project, CTR prediction Project,
 Contest project and etc. in the future.
 
