@@ -1,4 +1,4 @@
-/**
+package interviewing; /**
  * Created by Yu on 2017/9/9.
  * This is template class for this proj
  *
@@ -20,13 +20,5 @@
 
 //this is subClass to complete this task
 import dataStructure.*;
-public class UnionFind {
-    public static void main (){
-        //this is main function to run this task
-
-    }
-    public static void task (){
-        //this is task in leetcode
-
-    }
+public class LC207_Graph_CourseSchedule {
 }

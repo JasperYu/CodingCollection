@@ -1,4 +1,4 @@
-/**
+package classic; /**
  * Created by Yu on 2017/9/9.
  * This is template class for this proj
  *
@@ -14,7 +14,7 @@
  * Graph
  * Binary search 、 array
  * String
- * Backtracing
+ * classic.Backtracing
 
 
 
