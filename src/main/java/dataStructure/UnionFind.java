@@ -18,7 +18,7 @@ class UnionFind {
     }
 
     public int find(int p) {
-        while (p != parent[p]) {
+        while (p != parent[p]) {//直到找到这个大兄弟节点
             parent[p] = parent[parent[p]];    // path compression by halving
             p = parent[p];
         }
@@ -29,7 +29,7 @@ class UnionFind {
         int rootP = find(p);
         int rootQ = find(q);
         if (rootP == rootQ) return;
-        if (rank[rootQ] > rank[rootP]) {
+        if (rank[rootQ] > rank[rootP]) {//尽量使得不逆序
             parent[rootP] = rootQ;
         }
         else {
@@ -38,7 +38,7 @@ class UnionFind {
                 rank[rootP]++;
             }
         }
-        count--;
+        count--;// 表示目前分几组
     }
 
     public int count() {
